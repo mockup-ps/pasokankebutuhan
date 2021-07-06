@@ -1,0 +1,36 @@
+// Here you can add other styles
+
+.clickable{
+    transition: 0.8s;
+}
+.clickable:hover{
+    opacity: 0.6;
+    transform: scale(0.95);
+}
+.josss thead tr {
+    background-color: #02265d !important;
+    color:#f5f7fa    
+} 
+.josss th{
+    text-align:center;
+    white-space: nowrap; 
+}
+.josss td{
+    text-align:center;  
+}
+.clickable-off {
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.clickable-on {
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+.clickable-off:hover {
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+.disabled{
+    filter: grayscale(100%);
+}
